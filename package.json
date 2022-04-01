@@ -1,0 +1,22 @@
+{
+  "name": "payments_app_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
