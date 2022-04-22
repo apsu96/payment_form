@@ -8,7 +8,7 @@ Payment form includes the following input fields with assigned validation rules:
 - Amount (only numbers).
 
 The client sends the data to the server. The server saves it in the database and 
-returns id and transferred amount of the transaction to the client.
+returns to the client transaction id and transferred amount.
 
 
 Frontend - TypeScript, React.
